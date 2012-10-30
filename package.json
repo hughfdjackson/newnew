@@ -5,5 +5,8 @@
     "main": "src/newnew.js",
     "scripts": {
         "test": "mocha --ui qunit"
+    },
+    "devDependencies": {
+        "sinon": "1.5.0"
     }
 }
