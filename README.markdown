@@ -11,8 +11,6 @@
 `newnew` inherits the first-class nature of functions, allowing you to do a couple of cool things that you never could with `new`: 
 
 
-##### Application
-
 ```javascript
 
 var objects = [Object, Array, Function].map(newnew)
