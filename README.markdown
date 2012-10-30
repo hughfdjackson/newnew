@@ -16,13 +16,11 @@
 ```javascript
 
 var objects = [Object, Array, Function].map(newnew)
-
 ```
 
 ```javascript
 
 var o = newnew.apply(MyCtor, args)
-
 ```
 
 ## Getting
@@ -31,4 +29,5 @@ It's as simple as an npm:
 
 ```
 npm install newnew
-``
+
+```
