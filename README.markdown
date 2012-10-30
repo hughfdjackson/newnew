@@ -6,7 +6,7 @@
 
 `newnew` is a function that replaces the `new` operator.
 
-### WHy??
+### Why??
 
 `newnew` inherits the first-class nature of functions, allowing you to do a couple of cool things that you never could with `new`: 
 
