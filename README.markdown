@@ -20,7 +20,9 @@ var objects = [Object, Array, Function].map(newnew)
 
 ```javascript
 
-var o = newnew.apply(MyCtor, args)
+var args = [MyCtor, [].slice.call(arguments)]
+
+var o = newnew.apply(null, args)
 ```
 
 ## Getting
