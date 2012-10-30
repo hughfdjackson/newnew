@@ -1,0 +1,9 @@
+{
+    "name": "newnew",
+    "description": "the `new` operator as a function; compliant with es5.1",
+    "version": "0.0.1",
+    "main": "src/newnew.js",
+    "scripts": {
+        "test": "mocha --ui qunit"
+    }
+}
