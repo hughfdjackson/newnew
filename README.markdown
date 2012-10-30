@@ -15,6 +15,14 @@
 
 ```javascript
 
+var objects = [Object, Array, Function].map(newnew)
+
+```
+
+```javascript
+
+var o = newnew.apply(MyCtor, args)
+
 ```
 
 ## Getting
