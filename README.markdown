@@ -18,7 +18,7 @@ var objects = [Object, Array, Function].map(newnew)
 
 ```javascript
 
-var args = [MyCtor, [].slice.call(arguments)]
+var args = [MyCtor].concat([].slice.call(arguments))
 
 var o = newnew.apply(null, args)
 ```
